@@ -3,7 +3,7 @@
 var $plugins =
 [
 {"name":"SA_CoreSpeedImprovement","status":true,"description":"v18.1 SA Core Speed Improvement (Define at the top)","parameters":{"Enable CWC-cache":"false","Minimum CWC-cache holding count":"15","Logging level":"4"}},
-{"name":"Community_Basic","status":true,"description":"基本的なパラメーターを設定するプラグインです。","parameters":{"cacheLimit":"60","screenWidth":"1024","screenHeight":"576","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off","textSpeed":"1","autoSaveFileId":"0","errorMessage":"エラーが発生しました。ゲームの作者にご連絡ください。","showErrorDetail":"true","enableProgressBar":"true","maxRenderingFps":"20"}},
+{"name":"Community_Basic","status":true,"description":"基本的なパラメーターを設定するプラグインです。","parameters":{"cacheLimit":"60","screenWidth":"1024","screenHeight":"576","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"webgl","alwaysDash":"off","textSpeed":"1","autoSaveFileId":"0","errorMessage":"エラーが発生しました。ゲームの作者にご連絡ください。","showErrorDetail":"true","enableProgressBar":"true","maxRenderingFps":"60"}},
 {"name":"EventDebugger","status":false,"description":"イベントデバッグプラグイン","parameters":{"ステップ開始":"F7","ステップイン":"F11","ステップオーバー":"F10","続行":"F6","表示切替":"F6","変数監視":"F1","監視最大数":"3","イベントテスト":"false","機能キー抑制":"false","OK動作":"F11","キャンセル動作":"F6","Ctrl同時押し":"false","Alt同時押し":"false","スクリプトデバッグ":"1","CTRLで無効化":"false"}},
 {"name":"gameEnd","status":true,"description":"このプラグインはタイトル画面にウィンドウを閉じるゲーム終了コマンドを追加します。","parameters":{"endName":"ゲーム終了"}},
 {"name":"Lunatlazur_ActorNameWindow","status":true,"description":"名前ウィンドウ表示プラグイン","parameters":{"テキストカラー":"0"}},
